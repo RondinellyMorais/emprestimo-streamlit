@@ -11,17 +11,8 @@ from sklearn.metrics import roc_auc_score
 
 import pickle
 import plotly.express as px
-import matplotlib.pyplot as plt
-import seaborn as sns
-from PIL import Image
 
 st.set_page_config(layout='wide')
-
-# Carregando imagem 
-foto = Image.open('loan.jpg')
-st.image(foto,
-         caption='Logo',
-         use_column_width=False)
 
 st.write("""
 # Previsão de status de empréstimo do cliente App
